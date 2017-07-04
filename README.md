@@ -1,0 +1,2 @@
+# simonMini
+Simon | The Game
