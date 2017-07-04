@@ -1,0 +1,77 @@
+@font-face {
+    font-family: numberGame;
+    src: url(media/numberGame.ttf);
+}
+
+body {
+  background-color: black;
+}
+
+
+#gamePad {
+  width: 325px;
+  height: 325px;
+  margin: 100px auto;
+}
+
+#green {
+  background-color: #34a853;
+  border-top-left-radius: 100%;
+}
+#red {
+  background-color: #ea4335;
+  border-top-right-radius: 100%;
+}
+#yellow {
+  background-color: #fbbc05;
+  border-bottom-left-radius: 100%;
+}
+#blue {
+  background-color: #4285f4;
+  border-bottom-right-radius: 100%;
+}
+
+.button {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  /*border: none;*/
+  outline: 0;
+  opacity: 0.7;
+}
+.lit{
+  opacity: 1;
+}
+
+#controlPanel{
+  position: absolute;
+  top: 195px;
+  left: 0;
+  right: 0;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  text-align: center;
+  background: #99908e;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+.btn{
+  width: 40px;
+  padding: 0;
+  outline: 0 !important;
+}
+#strict{
+  font-size: 9px;
+  width: 50px;
+}
+h3{
+  display: inline-block;
+  padding: 0 !important;
+  font-size: 30px;
+  line-height: 30px;
+  border-radius: 10%;
+  color: green;
+  background: black;
+  font-family: numberGame;
+}
